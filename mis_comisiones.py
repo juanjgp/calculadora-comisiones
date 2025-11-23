@@ -9,3 +9,5 @@ valor_comision = round(ventas * (13 / 100), 2)
 valor_total = ventas + valor_comision
 
 print(f"Hola {nombre}. Con el valor de ventas de {ventas}$ te corresponde, con una comisión del 13%, una comision de {valor_comision}$ y un ingreso total de {valor_total}$")
+
+input("Pulsa ENTER para finalizar el programa.")
